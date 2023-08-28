@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,300&display=swap');
+
+body{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px; 
+    color: #959595;
+    font-weight: 400;
+    font-family: "Open Sans";
+    line-height: 1.4rem;  
+}
+:root{
+    --color1:#31d7ce;
+    --btn-color: #81C99B;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+} 
+/* Start Header */
+header{   
+    position: relative;
+    z-index: 11;
+}
+.header_logo{
+    position: fixed;
+    top: 30px;
+    background: transparent;
+}
+/* End Header */
+
+/* Start Hero Part */ 
+#hero_part{  
+    padding: 350px 0; 
+    position: relative;
+    background: url('../img/take-bg.png') no-repeat bottom center / cover;
+}  
+.hero_con h2{
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 300; 
+}
+.hero_con p{ 
+    width: 75%;
+    color: #ffffff; 
+    font-size: 13px;
+    padding-top: 10px;
+}
+.hero_img{
+    position: absolute; 
+    top: 250px; 
+}
+.hero_img img{
+    width: 75%;
+}
+/* End Hero Part */
+
+/* Start Text Part */  
+#text_part{
+    padding: 120px 0 0 0;
+}
+.text_con h3{
+    font-size: 35px;
+    line-height: 36px;
+    color: #222626; 
+}
+.text_con p{ 
+    padding-top: 20px;
+}
+/* End Text Part */
+
+/* Start GridBox Part */ 
+#grid_box{
+    padding: 80px 0;
+}
+.grid_con_main{ 
+    padding: 50px;
+}
+.box1{
+    background: #F5979C; 
+}
+.box2{
+    background: #615E7D;
+}
+.box3{
+    background: url('../img/take-grid1.png') no-repeat center / cover;
+}
+.box4{
+    background: url('../img/take-grid2.png') no-repeat center / cover; 
+}
+.box5{
+    background: #81C99C;
+}
+.grid_con h4{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 300;
+} 
+.grid_con p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;  
+}
+.icon_box p{    
+    font-weight: 700; 
+} 
+/* End GridBox Part */
+
+/* Start  Four Col Part */  
+#four_col{
+    padding: 0 0 160px;
+}
+.four_title h2{
+    font-size: 35px;
+    line-height: 36px;
+    color: #222626; 
+}
+.four_con h5{
+    font-size: 15px;
+    line-height: 24px;
+    color: #67676d;
+    font-weight: 600; 
+} 
+/* End Four Col Part */
+
+/* Start Full Image Part */ 
+#full_img{
+    padding: 460px 0 160px;
+    background: url('../img/take-full-img.png') no-repeat center / cover;
+}
+.full_con h3{
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 300; 
+}
+.full_con p{
+    width: 40%;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400; 
+}
+/* End Full Image Part */
+
+/* Start Buying Part */
+#buying_part{
+    padding: 100px 0 140px;
+    background: #F6F7FA;
+}
+.buy_btn1 a{
+    padding: 5px 16px;
+    background: #E1E1E1;
+    border-radius: 6px;
+    border: 1px solid #E1E1E1;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Open Sans";
+    text-align: center;
+    transition: .5s;
+}
+.buy_con h3{
+    font-size: 30px;
+    line-height: 40px;
+    color: #2e3b4e;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+.buy_con p{ 
+    font-size: 15px;
+    line-height: 25px;
+    color: #8297a7;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+.buy_btn2 a{
+    letter-spacing: 1px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    text-decoration: none;
+    background: #81C99B;
+    padding: 18px 30px;
+    border-radius: 4px;
+    border: 1px solid var(--btn-color);
+    transition: .5s;
+
+}
+.buy_btn2 a:hover,
+.buy_btn1 a:hover{
+    background-color: transparent;
+    border-color: var(--btn-color);
+    color: var(--btn-color);
+}
+.buy_icons a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #C5C5C5;
+    transition: .5s;
+}
+.buy_icons a:hover{
+    color: var(--color1);  
+}
+.ex_clr a{
+    background: #BD8BBF;
+}
+.buy_con_main2{
+    background: #ffffff;
+    padding: 40px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.068);
+}
+/* End Buying Part */  
+
+/* Start Footer Part */   
+#footer_part{
+    padding: 130px 0 160px;
+    background: #192331;
+}
+.footer_con h4{
+    font-size: 15px;
+    line-height: 24px;
+    color: #f6f7fa;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+.footer_con p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #f6f7fa;
+    font-weight: 400;
+    font-family: "Open Sans";
+}   
+.input_group .form-control{
+    padding: 6px 0;
+    border-radius: 0;
+}
+.input_group .input-group-text{
+    border-radius: 0;
+}
+.input_group a{
+    text-decoration: none;
+    font-size: 24px;
+    background: var(--btn-color);
+    border-color: var(--btn-color);
+    color: #fff;
+    padding: 6px 20px; 
+}
+.input_group p{  
+    width: 60%;
+    font-size: 13px;
+    line-height: 18px;
+    color: #57697f;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+/* End Footer Part */
+
+/* Call to action Btn */
+.cta_btn a{
+    position: fixed;
+    font-size: 18px;
+    bottom: 20px;
+    right: 20px;
+    padding: 1px 6px;
+    background-color: var(--color1);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid var(--color1); 
+    transition: .5s;
+    display: none;
+}
+.cta_btn a:hover{
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}

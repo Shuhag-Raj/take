@@ -1,0 +1,65 @@
+ /* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    #hero_part{  
+        padding: 250px 0 350px;  
+    }  
+    .hero_img img{
+        width: 100%;
+    }
+    .hero_con h2{
+        font-size: 45px; 
+    }
+    .hero_con p{ 
+        width: 100%; 
+    }
+    .grid_con_main{ 
+        padding: 20px;
+    }
+    .full_con p{
+        width: 60%; 
+    } 
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    
+    .hero_con h2{
+        font-size: 35px; 
+    }
+    .text_con h3{
+        font-size: 25px; 
+    }  
+    .hero_img{
+        position: absolute; 
+        top: 200px; 
+    }
+    .full_con h3{
+        font-size: 45px;
+    }
+    .full_con p{
+        width: 100%; 
+    }
+}
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {   
+    .hero_con p{ 
+        width: 90%; 
+    } 
+    .hero_img{
+        position: absolute; 
+        top: 150px; 
+    }
+    .full_con h3{
+        font-size: 32px;
+    }
+    .footer_con_main{
+        text-align: center; 
+    }
+    .input-group {
+        margin: auto;
+    }
+    .input_group p{
+        margin: auto;
+    }
+}
